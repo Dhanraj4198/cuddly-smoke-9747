@@ -1,0 +1,111 @@
+#footer {
+  background-color: #15372c;
+  margin: 0%;
+  padding: 120px 0px;
+}
+#content {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  /* border: 1px solid red; */
+  justify-content: center;
+  gap: 10px;
+}
+#topSection {
+  display: flex;
+  margin: auto;
+  width: 70%;
+  /* border: 1px solid black; */
+  justify-content: space-between;
+}
+#copyright {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid rgb(139, 47, 47); */
+  width: 70%;
+  margin: auto;
+}
+#bottomSection{
+display: flex;
+width: 70%;
+margin: auto;
+gap: 10px;
+}
+#bottomSection>img:hover{
+    cursor: pointer;
+}
+#copyright > div > p {
+  font-size: 12px;
+  color: #ffffff;
+}
+#copyright > :nth-child(2) {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  /* border: 1px solid rgb(47, 139, 76); */
+  width: 40%;
+}
+#copyright > :nth-child(2) > p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#leftSection {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+}
+#leftSection > div {
+  display: grid;
+}
+#rightSection {
+  display: block;
+  /* border: 1px solid purple; */
+  width: 40%;
+  color: #ffffff;
+}
+#rightSection>p{
+    margin-bottom: 50px;
+}
+#rightSection>h3{
+    font-weight: 200;
+}
+#rightSection>label{
+    font-size: 13px;
+}
+#rightSection>input,select{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+#rightSection>select{
+    background-color: #15372c;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 20px;
+}
+#rightSection>button{
+    margin-bottom: 70px;
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #15372c;
+    border: 1px solid #ffffff;
+    font-size: 20px;
+    color: #ffffff;
+}
+#leftSection > div > div > p {
+  color: #ffffff;
+}
+#leftSection > div > div > p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#leftSection > div > div > p:first-child {
+  color: #008561;
+}
+#leftSection > div > div > p:first-child:hover {
+  text-decoration: none;
+  cursor: default;
+}
