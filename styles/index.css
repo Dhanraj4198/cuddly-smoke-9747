@@ -1,0 +1,11 @@
+.pageSection{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+.pageSection>div{
+    width: 50%;
+}
+.pageSection>div>img{
+    width: 100%;
+}

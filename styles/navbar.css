@@ -2,9 +2,11 @@ body {
   margin: 0%;
 }
 #navbar {
+  top: 0%;
   display: flex;
   margin: 0%;
-  position: sticky;
+  position: fixed;
+  background-color: #ffffff;
   align-items: center;
   padding-left: 15%;
   padding-right: 15%;
@@ -170,4 +172,13 @@ border-radius: 40px;
     cursor: pointer;
     color: #008561;
     border: 1px solid #008561;
+}
+#main {
+  margin-top: 70px;
+}
+#firstDiv{
+  margin-top: 70px;
+}
+#mission{
+  margin-top: 70px;
 }
