@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-
+  <link rel="stylesheet" href="./styles/navbar.css" />
+  <link rel="stylesheet" href="./styles/footer.css" />
+  <link
+  rel="icon"
+  href="https://www.freelogovectors.net/svg08/greenhouse-logo.svg"
+/>
   <style>
     body {
       width: 90%;
@@ -31,7 +36,7 @@
       gap: 3%;
     }
 
-    img {
+    .page {
       width: 700px;
       height: 700px;
     }
@@ -48,6 +53,9 @@
   </style>
 
   <body>
+    <div id="navbar" class="navbar"></div>
+   
+   
     <div id="mission">
       <div id="mission_partA" class="mission_SubPart">
         <div style="margin-top: 10%">
@@ -68,7 +76,7 @@
         </div>
 
         <div>
-          <img
+          <img class="page"
             src="https://sharp.services.greenhouse.io/production/Greenhouse-team-member.jpg?auto=format&fit=max&lossless=true&q=90&w=1440&s=282db31a8a29ed753a3b354fe6e5e4136fd2f7c0ae2ba29a3eb56922e0ccbe42"
             alt=""
           />
@@ -77,7 +85,7 @@
 
       <div id="mission_partC" class="mission_SubPart">
         <div>
-          <img
+          <img class="page"
             src="https://sharp.services.greenhouse.io/production/Greenhouse-employees-and-product.png?auto=format&fit=max&lossless=true&q=90&w=1440&s=d31403d5786cdb69089d4c8949179ad62ced38ddb37da8a35926f6433535def1"
             alt=""
           />
@@ -132,7 +140,7 @@
         </div>
 
         <div>
-          <img
+          <img class="page"
             src="https://sharp.services.greenhouse.io/production/Greenhouse-event-photos.png?auto=format&fit=max&lossless=true&q=90&w=1440&s=66c5c3f9d9d2cc954b9de0413a56429cdfdbfaccdeb38770111a1f7218bb0e57"
             alt=""
           />
@@ -141,7 +149,7 @@
 
       <div id="mission_partE" class="mission_SubPart">
         <div>
-          <img
+          <img class="page"
             src="https://sharp.services.greenhouse.io/production/Greenhouse-team-members-6.png?auto=format&fit=max&lossless=true&q=90&w=1440&s=37767b7952208056e0a5a5225a3439a0fbdcbe0e8f66dfb7b5772ccf141a831e"
             alt=""
           />
@@ -178,7 +186,7 @@
         </div>
 
         <div>
-          <img
+          <img class="page"
             src="https://sharp.services.greenhouse.io/production/Greenhouse-team-members-5.png?auto=format&fit=max&lossless=true&q=90&w=1440&s=617eec53ea6c566c2a6f0474200d2ad2700288997edb055837bef879bfd04901"
             alt=""
           />
@@ -207,7 +215,7 @@
           </div>
 
           <div>
-            <img
+            <img 
               style="width: 85%; height: 55%"
               src="https://sharp.services.greenhouse.io/production/LizAnn-Nealing.jpg?auto=format&fit=max&lossless=true&q=90&w=720&s=6f62bbcdbe8803b8a73510b9574a517b49b7d977df075a196d8c232e1ca32e9e"
               alt=""
@@ -222,7 +230,7 @@
           </div>
 
           <div>
-            <img
+            <img 
               style="width: 90%; height: 55%"
               src="https://sharp.services.greenhouse.io/production/Cole-Reuvers.jpg?auto=format&fit=max&lossless=true&q=90&w=720&s=42fdd113ab1faf70d990e277c4521df6f86a21793f8c45816af3802787a7409a"
               alt=""
@@ -238,5 +246,14 @@
         </div>
       </div>
     </div>
+    <footer id="footer"></footer>
   </body>
 </html>
+<script type="module">
+  import navbar from "./components/navbar.js";
+  document.querySelector("#navbar").innerHTML = navbar();
+  import footer from "./components/footer.js";
+  document.querySelector("#footer").innerHTML = footer();
+  console.log(footer());
+</script>
+<script src="/scripts/navbarshow.js" defer></script>

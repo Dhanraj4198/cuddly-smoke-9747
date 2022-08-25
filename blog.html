@@ -1,94 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Greenhouse recruiting blog | Greenhouse</title>
-    <link rel = "icon" href="https://www.freelogovectors.net/svg08/greenhouse-logo.svg">
-<link rel="stylesheet" href="./styles/blog.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link
+      rel="icon"
+      href="https://www.freelogovectors.net/svg08/greenhouse-logo.svg"
+    />
+    <link rel="stylesheet" href="./styles/blog.css" />
+  </head>
+  <body>
+    <div id="navbar" class="navbar"></div>
+   
+   
     <div id="main">
-        <!-- top div -->
-   <div id="top_div">
-      <div id="top_div_content">
-        <div id="inside_top_div_content">
-        <p style="color:#008561 ;font-size: 15px;text-align: start;">Greenhouse blog</p>
-        <h1>Find out what’s next in hiring</h1>
-       <p> Get the latest news, practitioner stories, hiring best practice in action and more on the Greenhouse blog.</p>
-    </div>
+      <!-- top div -->
+      <div id="top_div">
+        <div id="top_div_content">
+          <div id="inside_top_div_content">
+            <p style="color: #008561; font-size: 15px; text-align: start">
+              Greenhouse blog
+            </p>
+            <h1>Find out what’s next in hiring</h1>
+            <p>
+              Get the latest news, practitioner stories, hiring best practice in
+              action and more on the Greenhouse blog.
+            </p>
+          </div>
+        </div>
+        <div id="top_div_img">
+          <img
+            src="https://sharp.services.greenhouse.io/production/two-men-in-a-meeting.jpg"
+          />
+        </div>
       </div>
-     <div id="top_div_img">
-        <img src="https://sharp.services.greenhouse.io/production/two-men-in-a-meeting.jpg">
+      <!-- filter part -->
+      <h2 id="all_articles">All articles</h2>
+      <div id="filter_part">
+        <!-- sub divs inside one div for filter by topic and for apply filters -->
+        <div id="filter_part_main">
+          <!-- filter by topic sub div -->
+          <div id="filter_by_topic">
+            <label>Filter by topic</label>
+            <select name="topic" id="topic">
+              <option value="">All topics</option>
+
+              <option value="Candidate experience">Candidate experience</option>
+
+              <option value="Candidate sourcing">Candidate sourcing</option>
+
+              <option value="Company culture">Company culture</option>
+
+              <option value="DE&I">DE&amp;I</option>
+
+              <option value="Distributed hiring">
+                Distributed hiring &amp; work
+              </option>
+
+              <option value="Employer brand">Employer brand</option>
+
+              <option value="Hiring maturity">Hiring Maturity</option>
+
+              <option value="Hiring techstack">Hiring tech stack</option>
+
+              <option value="Industry news">Industry news</option>
+
+              <option value="Interviewing">Interviewing</option>
+
+              <option value="Employee experience">Onboarding</option>
+
+              <option value="Recruiting metrics">Recruiting metrics</option>
+
+              <option value="Recruiter tips">Recruiter tips</option>
+
+              <option value="Social impact">Social impact</option>
+
+              <option value="Structured hiring">Structured hiring</option>
+
+              <option value="Talent operations">Talent operations</option>
+
+              <option value="Talent strategy">Talent strategy</option>
+            </select>
+          </div>
+          <!-- apply filter sub div -->
+          <div id="apply_filter">
+            <input
+              onclick="filter()"
+              type="submit"
+              class="button--secondary"
+              value="Apply Filters"
+            />
+
+            <input onclick="clearone()" type="submit" value="Clear" />
+          </div>
+        </div>
+      </div>
+      <div id="append_data"></div>
     </div>
-
-   </div>
-<!-- filter part -->
-<h2 id="all_articles">All articles</h2>
-<div id="filter_part">
- 
-<!-- sub divs inside one div for filter by topic and for apply filters --> 
-<div id="filter_part_main">
-
-<!-- filter by topic sub div -->
-<div id="filter_by_topic">
-    <label>Filter by topic</label>
-    <select name="topic" id="topic">
-        <option value="">All topics</option>
-                                        
-                                                                                                                        <option value="Candidate experience">Candidate experience</option>
-        
-                                                                                                                        <option value="Candidate sourcing">Candidate sourcing</option>
-        
-                                                                                                                        <option value="Company culture">Company culture</option>
-        
-                                                                                                                        <option value="DE&I">DE&amp;I</option>
-        
-                                                                                                                        <option value="Distributed hiring">Distributed hiring &amp; work</option>
-        
-                                                                                                                        <option value="Employer brand">Employer brand</option>
-        
-                                                                                                                        <option value="Hiring maturity">Hiring Maturity</option>
-        
-                                                                                                                        <option value="Hiring techstack">Hiring tech stack</option>
-        
-                                                                                                                        <option value="Industry news">Industry news</option>
-        
-                                                                                                                        <option value="Interviewing">Interviewing</option>
-        
-                                                                                                                        <option value="Employee experience">Onboarding</option>
-        
-                                                                                                                        <option value="Recruiting metrics">Recruiting metrics</option>
-        
-                                                                                                                        <option value="Recruiter tips">Recruiter tips</option>
-        
-                                                                                                                        <option value="Social impact">Social impact</option>
-        
-                                                                                                                        <option value="Structured hiring">Structured hiring</option>
-        
-                                                                                                                        <option value="Talent operations">Talent operations</option>
-        
-                                                                                                                        <option value="Talent strategy">Talent strategy</option>
-                                    </select>
-
-</div>
-<!-- apply filter sub div -->
-<div id="apply_filter">
-    <input onclick="filter()"  type="submit" class="button--secondary" value="Apply Filters">
-    
-    <input onclick="clearone()" type="submit" value="Clear">
-</div>
-</div>
-
-
-</div>
-<div id="append_data">
-
-</div>
-
-    </div>
-    
-</body>
-<script src="./scripts/blog.js"></script>
+    <footer id="footer"></footer>
+  </body>
+  <script src="./scripts/blog.js"></script>
 </html>
+<script type="module">
+    import navbar from "./components/navbar.js";
+    document.querySelector("#navbar").innerHTML = navbar();
+    import footer from "./components/footer.js";
+    document.querySelector("#footer").innerHTML = footer();
+  </script>
+  <script src="/scripts/navbarshow.js" defer></script>
+  

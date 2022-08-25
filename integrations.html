@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="./styles/integrations.css">
     <link rel="icon" href="https://www.freelogovectors.net/svg08/greenhouse-logo.svg" type="image/icon type">
 </head>
+<link rel="stylesheet" href="./styles/navbar.css" />
+<link rel="stylesheet" href="./styles/footer.css" />
 <body>
+    <div id="navbar" class="navbar"></div>
+   
+   
     <main>
         <div class="container-1">
             <div class="text-container">
@@ -65,6 +70,14 @@
             </div>
         </div>
     </main>
-    
+    <footer id="footer"></footer>
 </body>
 </html>
+<script type="module">
+    import navbar from "./components/navbar.js";
+    document.querySelector("#navbar").innerHTML = navbar();
+    import footer from "./components/footer.js";
+    document.querySelector("#footer").innerHTML = footer();
+  </script>
+  <script src="/scripts/navbarshow.js" defer></script>
+  
