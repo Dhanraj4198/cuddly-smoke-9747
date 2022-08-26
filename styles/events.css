@@ -1,0 +1,17 @@
+#hero_btn {
+  background-color: #008561;
+  color: #fff;
+  border-radius: 25px;
+  border: 1px solid #008561;
+  display: inline-block;
+  font-family: Untitled Sans, Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1;
+  padding: 12px 30px;
+  min-height: 43px;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  -webkit-appearance: none;
+}
