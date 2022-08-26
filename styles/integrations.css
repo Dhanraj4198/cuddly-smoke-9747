@@ -116,7 +116,7 @@
     margin-bottom: 5%;
     margin-top: 5%; 
 }
-h2{
+#inte{
     font-size: 70px;
     line-height: 70px;
     font-family: "United Serif" Georgia,serif;
@@ -126,18 +126,58 @@ h2{
 }
 .integration-filter{
     display: flex;
+    top: 0%;
 }
 .sidebar{
     margin-left: 10%;
     overflow-y: scroll;
-    width: 30%;
+    width: 50%;
     height: 500px;
     position: sticky;
     top: 0%;
 }
+.sidebar ul{
+    font-size: 18px;
+    color: #1D8564;
+    list-style: none;
+    border-bottom: 1px solid #1D8564;
+    justify-items: left;
+    word-wrap: normal;
+    /* left: -10px; */
+    padding: 20px 0px;
+    display: block;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.sidebar ul>li{
+    font-size: 15px;
+    color: black;
+    font-family: "Untitled Serif",Georgia,serif;
+    line-height: 180%;
+    display: none;
+    cursor: pointer;
+}
+.sidebar a{
+    text-decoration: none;
+    color: #1D8564;
+}
 .filtered-items{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.filtered-items>h1{
+    font-size: 45px;
+    font-family: "United Seriff" Georgia,serif;
+    color: #15372c;
+    font-weight: 300;
+}
+.filtered-items>h2{
+    font-family: "United Seriff" Georgia,serif;
+    color: #15372c;
+    font-weight: 100;
+}
+.filtered-items>p{
+    margin-bottom: 10%;
 }
 .item-lists{
     display: grid;
@@ -172,11 +212,13 @@ h2{
     background: white;
     cursor: pointer;
     margin-left: 40%;
+    margin-top: 50px;
 }
 .cust-btn:hover{
     border: 1px solid rgb(0,133,97);
     color: rgb(0,133,97);
 }
+
 
 
 
