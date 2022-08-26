@@ -60,7 +60,7 @@ function navbar(){
       <button class="link" data-dropdown_menu-button>About us</button>
       <div class="dropdown">
         <div class="dropdown-content">
-         <h2><a href="#">Mission</a></h2>
+         <h2><a href="./mission.html">Mission</a></h2>
          <h2><a href="#">Belonging</a></h2>
          <h2><a href="#">Company</a></h2>
          <h2><a href="#">Careers</a></h2>

@@ -11,3 +11,15 @@ document.addEventListener("click", (e) => {
     dropdown.classList.remove("active");
   });
 });
+
+document.querySelector('#signInBtn').addEventListener('click',goToSignin)
+function goToSignin(){
+  
+  window.location.href = 'sign_in.html'
+}
+
+document.querySelector('#logo').addEventListener('click',goToHome)
+function goToHome(){
+
+window.location.href = 'index.html'
+}
