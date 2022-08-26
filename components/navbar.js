@@ -38,7 +38,7 @@ function navbar(){
       <button class="link" data-dropdown_menu-button>Resources</button>
       <div class="dropdown">
        <div class="dropdown-content">
-       <h2><a href="#">Blog</a></h2>
+       <h2><a href="./blog.html">Blog</a></h2>
        <h2><a href="#">Guidance</a></h2>
        <h2><a href="#">Customer stories</a></h2>
        <h2><a href="#">Hiring glossary</a></h2>
@@ -60,7 +60,7 @@ function navbar(){
       <button class="link" data-dropdown_menu-button>About us</button>
       <div class="dropdown">
         <div class="dropdown-content">
-         <h2><a href="#">Mission</a></h2>
+         <h2><a href="./mission.html">Mission</a></h2>
          <h2><a href="#">Belonging</a></h2>
          <h2><a href="#">Company</a></h2>
          <h2><a href="#">Careers</a></h2>
