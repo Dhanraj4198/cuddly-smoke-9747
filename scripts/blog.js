@@ -184,3 +184,26 @@ h3.onclick=function(){
 
   })
 }
+//   filter part 
+let filter=()=>{
+  console.log("yes")
+let value=document.getElementById("topic").value;
+console.log(value)
+let arr=[]
+for(let i=0;i<data.length;i++){
+
+if(data[i].caption.includes(value)){
+   console.log(data[i].caption)
+   arr.push(data[i])
+}
+   //console.log("NO")
+  
+}
+console.log(arr)
+display(arr)
+}
+// clear part of filter
+let clearone=()=>{
+
+ display(data)
+}
