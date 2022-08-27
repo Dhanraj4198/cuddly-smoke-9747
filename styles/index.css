@@ -1,11 +1,130 @@
-.pageSection{
-    display: flex;
-    width: 70%;
-    margin: auto;
+.pageSection {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  margin-top: 0%;
+  padding: 0%;
+  height: auto;
 }
-.pageSection>div{
-    width: 50%;
+.pageSection > div {
+  width: 50%;
+  height: auto;
+
+  padding: 0%;
+  margin: 0%;
 }
-.pageSection>div>img{
-    width: 100%;
+.pageSection > div > img {
+  width: 100%;
+}
+.pageImg {
+  width: 100%;
+}
+.pageBtn {
+  width: auto;
+  height: 40px;
+  border-radius: 40px;
+  padding: 0px 20px;
+  background-color: #008561;
+  border: none;
+  color: #ffffff;
+}
+.pageBtn:hover {
+  cursor: pointer;
+}
+.pageContentDiv {
+  padding: 80px 100px 80px 100px;
+}
+.tags {
+  color: #008561;
+  font-size: 14px;
+}
+.headerBig {
+  font-size: 70px;
+  font-weight: 400;
+}
+.headerMedium {
+  font-size: 46px;
+  font-weight: 400;
+}
+.headerSmall {
+  font-size: 34px;
+  font-weight: 400;
+}
+.demo {
+  width: 200px;
+  background-color: #3574d6;
+  color: #ffffff;
+  border: none;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 16px;
+}
+.demo:hover {
+  background-color: #25529b;
+}
+.btm {
+  display: flex;
+  width: 100%;
+  background-color: #113228;
+  justify-content: center;
+}
+.btm > div > h1 {
+  color: #ffffff;
+  font-weight: 300;
+}
+.btm > div:first-child {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.iconsL {
+  width: 20px;
+}
+.selections {
+  display: block;
+  height: 50px;
+  padding-left: 30px;
+  padding-top: 20px;
+  border-bottom: #008561 1px solid;
+}
+.selections > p {
+  display: inline;
+  margin-left: 40px;
+  font-size: 15px;
+}
+.greenDiv {
+  background-color: #113228;
+}
+.greenDiv > h2 {
+  color: #ffffff;
+}
+.companyLogos {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  gap: 80px;
+  padding-left: 100px;
+  border-left: #008561 1px solid;
+  height: 700px;
+}
+.companyLogos > img {
+  width: 100%;
+  margin-left: 100px;
+}
+.companyLogos > img:nth-child(1),
+.companyLogos > img:nth-child(2) {
+  margin-top: 150px;
+}
+.companyLogos > img:nth-last-child(1) {
+  margin-bottom: 150px;
+}
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+.reveal.activate {
+  transform: translateY(0px);
+  opacity: 1;
 }
