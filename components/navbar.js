@@ -7,7 +7,7 @@ function navbar(){
   </div>
   <div id="tabs">
     <div class="dropdown_menu" data-dropdown_menu>
-      <button class="link" data-dropdown_menu-button>Products and solutions</button>
+      <button class="link" data-dropdown_menu-button>Products & solutions</button>
       <div class="dropdown">
         <div class="dropdown-content">
           <ul>
