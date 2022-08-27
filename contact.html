@@ -7,7 +7,16 @@
     <title>Contact Greenhouse | Greenhouse</title>
     <link rel="stylesheet" href="./styles/contact.css" />
   </head>
+  <link rel="stylesheet" href="./styles/navbar.css" />
+  <link rel="stylesheet" href="./styles/footer.css" />
+  <link
+    rel="icon"
+    href="https://www.freelogovectors.net/svg08/greenhouse-logo.svg"
+  />
+
   <body>
+    <div id="navbar" class="navbar"></div>
+
     <div id="contact">
       <div id="contact_partA" class="contact_SubPart">
         <div style="margin-top: 10%">
@@ -109,6 +118,15 @@
         />
       </div>
     </div>
+    <footer id="footer"></footer>
   </body>
 </html>
+<script type="module">
+  import navbar from "./components/navbar.js";
+  document.querySelector("#navbar").innerHTML = navbar();
+  import footer from "./components/footer.js";
+  document.querySelector("#footer").innerHTML = footer();
+  console.log(footer());
+</script>
+<script src="/scripts/navbarshow.js" defer></script>
 <script src="./scripts/contact.js"></script>
