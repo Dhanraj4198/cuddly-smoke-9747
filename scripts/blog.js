@@ -173,8 +173,10 @@ display(data)
     div1.append(img)
     let div3=document.createElement("div");
     div3.append(div,div1)
-    div3.className="display_grid"
+ 
+    div3.className="display_grid reve"
     let hr=document.createElement("hr")
+  
 document.getElementById("append_data").append(div3,hr)
 h3.onclick=function(){
   window.location.href="readblog.html"
