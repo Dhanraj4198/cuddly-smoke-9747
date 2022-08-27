@@ -1,0 +1,20 @@
+.contact_SubPart {
+    display: flex;
+    gap: 5%;
+    margin: auto;
+    margin-left: 7%;
+    font-size: 26px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-stretch: expanded;
+  }
+
+  .page {
+    width: 610px;
+    height: 610px;
+  }
+
+#contact_partB_text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: rgb(0, 54, 0);
+}
