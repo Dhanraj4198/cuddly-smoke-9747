@@ -1,5 +1,5 @@
-function navbar(){
-    return `<div id="logo">
+function navbar() {
+  return `<div id="logo">
     <img
       src="https://mma.prnewswire.com/media/1095273/GREENHOUSE_WORDMARK_GREEN_Logo.jpg?p=facebook"
       alt=""
@@ -84,7 +84,7 @@ function navbar(){
       <button class="link" data-dropdown_menu-button>Community</button>
       <div class="dropdown">
         <div class="dropdown-content">
-            <h2><a href="#">Events</a></h2>
+            <h2><a href="/events.html">Events</a></h2>
             <h2><a href="#">Open</a></h2>
             <h2><a href="#">Talent Makers</a></h2>
             <h2><a href="#">Newsletter</a></h2>
@@ -115,7 +115,7 @@ function navbar(){
   </div>
   
   
-  `
+  `;
 }
 
-export default navbar
+export default navbar;

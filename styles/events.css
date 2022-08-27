@@ -1,17 +1,124 @@
-#hero_btn {
+body {
+  margin: 0px;
+}
+.hero_btn {
   background-color: #008561;
   color: #fff;
   border-radius: 25px;
   border: 1px solid #008561;
   display: inline-block;
   font-family: Untitled Sans, Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
   line-height: 1;
   padding: 12px 30px;
-  min-height: 43px;
-  text-decoration: none;
   cursor: pointer;
-  -webkit-transition: all 0.15s ease;
-  transition: all 0.15s ease;
-  -webkit-appearance: none;
+}
+#main {
+  display: flex;
+  height: 800px;
+  width: 100%;
+  margin-top: 80px;
+}
+#content_text {
+  margin-left: 100px;
+  margin-top: 150px;
+}
+#img {
+  height: 100%;
+  width: 50%;
+  margin-top: -80px;
+}
+#hero_p {
+  color: #008561;
+  margin-bottom: 16px;
+  font-size: 15px;
+  line-height: 160%;
+  margin-bottom: -30px;
+}
+.hero_h {
+  color: #15372c;
+  font-size: 4rem;
+  font-family: "Untitled Serif", Georgia, serif;
+  font-weight: lighter;
+  letter-spacing: -0.01em;
+  margin-bottom: -2px;
+}
+#hero_p2 {
+  font-family: Untitled Sans, Arial, Helvetica, sans-serif;
+  line-height: 170%;
+  margin-bottom: 30px;
+}
+#imgi {
+  height: 100%;
+  width: 100%;
+  margin-left: 150px;
+}
+.up_text {
+  color: #15372c;
+  font-size: 3rem;
+  font-family: "Untitled Serif", Georgia, serif;
+  font-weight: lighter;
+  letter-spacing: -0.01em;
+  margin-left: 100px;
+}
+.upcom {
+  display: flex;
+}
+.upcom_con {
+  width: 65%;
+  height: 100px;
+}
+.upcom_img {
+  width: 30%;
+  padding: 30px;
+}
+.upcomimgi {
+  width: 100%;
+}
+.upcomp1 {
+  color: #008561;
+  margin-left: 100px;
+  margin-top: 60px;
+  font-family: "Untitled Serif", Georgia, serif;
+}
+.upcom h1 {
+  color: #15372c;
+  margin-left: 100px;
+  margin-top: -15px;
+  font-family: "Untitled Serif", Georgia, serif;
+  font-weight: lighter;
+  letter-spacing: -0.01em;
+}
+.upcomp2 {
+  color: #15372c;
+  margin-left: 100px;
+  margin-top: 60px;
+}
+hr {
+  width: 90%;
+  margin-left: 100px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+#end_flower {
+  margin-top: 200px;
+  display: flex;
+  background-color: #15372c;
+  padding: 100px;
+  padding-bottom: 0px;
+}
+#lf {
+  width: 50%;
+  height: 600px;
+}
+#rf {
+  height: 600px;
+  width: 50%;
+}
+#fh {
+  color: #fff;
+  font-size: 4rem;
+  font-family: "Untitled Serif", Georgia, serif;
+  font-weight: lighter;
+  letter-spacing: -0.01em;
+  margin-bottom: -2px;
 }
