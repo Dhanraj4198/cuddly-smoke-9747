@@ -130,3 +130,27 @@
         color:#15372c;
         font-weight: lighter;
     } 
+    /* css for navbar products and solution because thet are not coming on same line */
+    /* .dropdown_menu>button{
+        width:200%;
+         margin-left: 10px;
+         font-size: large;
+           
+         }
+         .dropdown_menu>button:nth-child(1){
+            margin-right: 60px;
+         }
+        
+         .dropdown_menu{
+             margin-left: -3%;
+         }
+         #logo>img{
+           width:80%;
+         
+         }
+         #logo{
+            margin-left:px;
+         }
+         #tabs{
+margin-left: -3%;
+         } */

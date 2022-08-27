@@ -1,0 +1,182 @@
+#div_king{
+    display: flex;
+
+}
+#div_king>div>img{
+    width:100%;
+    height:800px;
+}
+#div_king>div>h1{
+    text-align: center;
+    width:75%;
+    margin-left: 15%;
+    font-size: 50px;
+font-weight: lighter;
+color: #15372c;
+}
+#div_king>div>p{
+    width: 60%;
+    margin-left:22%;
+    font-size: 21px;
+color: #15372c;
+font-weight: lighter;
+}
+#div_king>div{
+    width:50%;
+    margin: auto;
+  text-align: center;
+  
+}
+#div_queen1{
+ 
+    text-align: center;
+
+   
+}
+#div_king>div>button{
+    padding:12px 30px;
+background-color: #008561;
+border-radius: 20px;
+color: white;
+border:0px;
+
+height:45px;
+margin-top: 10%;
+font-size: 17px;
+margin-top: 3%;
+}
+/*  */
+
+
+#inside_top_div_content>h1{
+
+font-size: 70px;
+color: #15372c;
+text-align: start;
+width:100%;
+font-weight: lighter;
+margin-top: -0.5px;
+}
+#inside_top_div_content>p{
+font-size: 22px;
+color: #15372c;
+text-align: start;
+width:95%;
+margin-top: -10px;
+
+}
+#top_div_content{
+width:50%;
+text-align: center;
+}
+#top_div_img{
+width:50%;
+}
+#top_div_img>img{
+width:720px;
+height:731px;
+}
+#inside_top_div_content{
+margin: auto;
+margin-top: 26%;
+width:70%;
+height: 500px;
+align-items: center;
+}
+#top_div{
+height:auto;
+display: flex;
+
+}
+/* fliter part css */
+#filter_part{
+width:80%;
+
+
+margin: auto;
+}
+#all_articles{
+font-size: 70px;
+font-weight: lighter;
+margin-top: 8%;
+color: #15372c;
+margin-left: 8%;
+}
+#filter_by_topic>label{
+display: block;
+font-size: 19px;
+color: #15372c;
+margin-bottom: 6%;
+
+}
+#topic{
+color: #15372c;
+padding: 15px 30px;
+border-radius: 10px;
+}
+#apply_filter>input:nth-child(1){
+padding:12px 30px;
+background-color: #008561;
+border-radius: 20px;
+color: white;
+width:55%;
+margin-top: 10%;
+border:0px;
+}
+#apply_filter>input:nth-child(2){
+margin-left: 32px;
+padding: 1px 6px;
+color:  #008561;
+border:0px;
+background-color: white;
+font-size: large;
+}
+#filter_part_main{
+display: flex;
+justify-content: space-between;
+}
+/* append_data css */
+#append_data>div>div>img{
+width:380px;
+height:250px;
+}
+.display_grid>div>p{
+width:80%;
+}
+.display_grid{
+display: flex;
+
+
+}
+.display_grid>div>h1{
+width:80%
+}
+#append_data{
+
+width:80%;
+height:600px;
+margin: auto;
+margin-top: 5%;
+}
+#append_data{
+overflow: scroll;
+}
+.display_grid>div{
+margin-top: 5%;
+}
+#append_data>hr{
+margin-top: 5%;
+}
+#append_data>div>div>p:nth-child(1){
+color:#008561;
+font-size: 16px;
+}
+#append_data>div>div>h1{
+font-weight: lighter;
+}
+#append_data>div>div>p:nth-child(3){
+
+font-size: 17px;
+color:#15372c;
+font-weight: lighter;
+} 

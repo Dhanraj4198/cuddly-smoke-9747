@@ -38,8 +38,8 @@ function navbar(){
       <button class="link" data-dropdown_menu-button>Resources</button>
       <div class="dropdown">
        <div class="dropdown-content">
-       <h2><a href="blog.html">Blog</a></h2>
-       <h2><a href="#">Guidance</a></h2>
+       <h2><a href="./blog.html">Blog</a></h2>
+       <h2><a href="./guidance.html">Guidance</a></h2>
        <h2><a href="#">Customer stories</a></h2>
        <h2><a href="#">Hiring glossary</a></h2>
     </div>

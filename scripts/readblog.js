@@ -129,6 +129,29 @@ display(data)
     img.src=data.featuredImage;
     let top_para=document.createElement("h1");
     top_para.innerText=data.top_paragraph;
+    // creation image side div
+    let image_side_div=document.createElement("div");
+    let image_side_div_h2=document.createElement("h2");
+    image_side_div.id="image_side_div"
+    image_side_div_h2.innerText="Subscribe to our newsletter"
+    let image_side_div_p=document.createElement("p");
+    image_side_div_p.innerText="Our bi-weekly newsletter full of inspiration, podcasts, trends and news.";
+    let image_side_div_p1=document.createElement("p");
+    image_side_div_p1.innerText="Email address"
+    let image_side_div_input=document.createElement("input");
+    let image_side_div_btn=document.createElement("button");
+    image_side_div_btn.innerText="Subscribe"
+    let image_side_div_hr=document.createElement("hr")
+
+     let image_side_div_p2=document.createElement("p");
+    image_side_div_p2.innerText="Filed under:" 
+
+    let image_side_div_u=document.createElement("u");
+    image_side_div_u.innerText="DE&I" 
+    let image_side_div_u1=document.createElement("u");
+    image_side_div_u1.innerText="Industry news" 
+    
+    image_side_div.append(image_side_div_h2,image_side_div_p,image_side_div_p1,image_side_div_input,image_side_div_btn,image_side_div_hr,image_side_div_p2,image_side_div_u,image_side_div_u1)
     // 1st div append
 image_div.append(blog_page,top_para,img)
 // 2nd div creation
@@ -284,8 +307,8 @@ let ninth_div_btn=document.createElement("button");
 ninth_div_btn.innerText="Learn now"
 ninth_div.append(ninth_div_h3,ninth_div_btn)
 
-
-    container.append(image_div,second_div,third_div,fourth_div,fifth_div,sixth_div,seventh_div,ninth_div,hr3,eight_div)
+document.getElementById("first").append(image_div,image_side_div)
+    container.append(second_div,third_div,fourth_div,fifth_div,sixth_div,seventh_div,ninth_div,hr3,eight_div)
 
    }
 //    document.createElement("")
