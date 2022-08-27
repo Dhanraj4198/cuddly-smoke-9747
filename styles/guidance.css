@@ -1,3 +1,7 @@
+#append{
+    width: 80%;
+    margin: auto;
+}
 #div_king{
     display: flex;
 

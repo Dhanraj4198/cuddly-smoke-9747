@@ -15,7 +15,9 @@
     type="image/icon type"
   />
   <body>
+    <!-- navigation bar -->
     <div id="navbar" class="navbar"></div>
+    <!-- main page content -->
     <div style="margin-top: 80px"></div>
     <div class="pageSection">
       <div>
@@ -182,6 +184,7 @@
         </div>
       </div>
     </div>
+    <!-- partner companies -->
     <div class="pageSection reveal">
       <div class="pageContentDiv">
         <h1 style="margin-top: 180px" class="headerBig">
@@ -276,6 +279,7 @@
         />
       </div>
     </div>
+    <!-- request demo section -->
     <div class="btm reveal">
       <div>
         <h1 class="headerBig">Ready to become great at hiring?</h1>
@@ -288,14 +292,18 @@
         />
       </div>
     </div>
+    <!-- footer -->
     <footer id="footer"></footer>
   </body>
 </html>
+<!-- Import script -->
 <script type="module">
   import navbar from "./components/navbar.js";
   document.querySelector("#navbar").innerHTML = navbar();
   import footer from "./components/footer.js";
   document.querySelector("#footer").innerHTML = footer();
 </script>
+<!-- navigation bar script -->
 <script src="./scripts/navbarshow.js" defer></script>
+<!-- index page script -->
 <script src="./scripts/index.js"></script>

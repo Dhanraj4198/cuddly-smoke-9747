@@ -5,6 +5,8 @@
     flex-shrink: 1;
     flex-basis: 0%;
     position: relative;
+    width: 80%;
+    margin: auto;
 }
 .container-1{
     display: flex;
@@ -16,13 +18,14 @@
     flex-basis: 100%;
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 8%;
-    /* margin-right: 5%; */
     color: rgb(21,55,44);
+    justify-content: center;
+    padding-left: 100px;
 }
 .image-container img{
     width: 100%;
     display: block;
+    margin: 0%;
     /* vertical-align: baseline; */
 }
 .text-container h1{
