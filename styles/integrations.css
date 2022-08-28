@@ -218,7 +218,14 @@
     border: 1px solid rgb(0,133,97);
     color: rgb(0,133,97);
 }
-
-
-
+.reveal {
+    position: relative;
+    background-color: #113228;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  
 
