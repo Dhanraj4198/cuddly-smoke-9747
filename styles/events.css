@@ -15,7 +15,8 @@ body {
 #main {
   display: flex;
   height: 800px;
-  width: 100%;
+  width: 80%;
+  margin: auto;
   margin-top: 80px;
 }
 #content_text {
@@ -121,4 +122,8 @@ hr {
   font-weight: lighter;
   letter-spacing: -0.01em;
   margin-bottom: -2px;
+}
+.up_text,.upcom{
+width: 80%;
+margin: auto;
 }

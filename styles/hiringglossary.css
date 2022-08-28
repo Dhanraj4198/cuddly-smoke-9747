@@ -1,5 +1,6 @@
 #append{
     display: flex;
+    width: 80%;
     margin: auto;
 }
 #append>div{

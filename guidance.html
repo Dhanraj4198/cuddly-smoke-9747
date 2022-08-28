@@ -1,106 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Recruiting best practices & guidance | Greenhouse</title>
-    <link rel = "icon" href="https://www.freelogovectors.net/svg08/greenhouse-logo.svg">
-    <link rel="stylesheet" href="./styles/guidance.css">
-   <!-- style linking for navbar and fotter part-->
-   <link rel="stylesheet" href="./styles/navbar.css" />
-   <link rel="stylesheet" href="./styles/footer.css" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recruiting best practices & guidance | Greenhouse</title>
+    <link
+      rel="icon"
+      href="https://www.freelogovectors.net/svg08/greenhouse-logo.svg"
+    />
+    <link rel="stylesheet" href="./styles/guidance.css" />
+    <!-- style linking for navbar and fotter part-->
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+  </head>
+  <body>
     <!-- navbar append(by importing) -->
     <!-- navbar append done -->
     <div id="navbar" class="navbar"></div>
-        <div id="append"></div>
+    <div id="append"></div>
 
-     <!--  -->
-     <h2 id="all_articles">All Guidance</h2>
-     <div id="filter_part">
- 
-        <!-- sub divs inside one div for filter by topic and for apply filters --> 
-        <div id="filter_part_main">
-        
+    <!--  -->
+    <h2 id="all_articles">All Guidance</h2>
+    <div id="filter_part">
+      <!-- sub divs inside one div for filter by topic and for apply filters -->
+      <div id="filter_part_main">
         <!-- filter by topic sub div -->
         <div id="filter_by_topic">
-            <label>Filter by topic</label>
-            <select name="topic" id="topic">
-                <option value="">All topics</option>
-                                                
-                                                                                                                                <option value="Candidate experience">Candidate experience</option>
-                
-                                                                                                                                <option value="Candidate sourcing">Candidate sourcing</option>
-                
-                                                                                                                                <option value="Company culture">Company culture</option>
-                
-                                                                                                                                <option value="DE&I">DE&amp;I</option>
-                
-                                                                                                                                <option value="Distributed hiring">Distributed hiring &amp; work</option>
-                
-                                                                                                                                <option value="Employer brand">Employer brand</option>
-                
-                                                                                                                                <option value="Hiring maturity">Hiring Maturity</option>
-                
-                                                                                                                                <option value="Hiring techstack">Hiring tech stack</option>
-                
-                                                                                                                                <option value="Industry news">Industry news</option>
-                
-                                                                                                                                <option value="Interviewing">Interviewing</option>
-                
-                                                                                                                                <option value="Employee experience">Onboarding</option>
-                
-                                                                                                                                <option value="Recruiting metrics">Recruiting metrics</option>
-                
-                                                                                                                                <option value="Recruiter tips">Recruiter tips</option>
-                
-                                                                                                                                <option value="Social impact">Social impact</option>
-                
-                                                                                                                                <option value="Structured hiring">Structured hiring</option>
-                
-                                                                                                                                <option value="Talent operations">Talent operations</option>
-                
-                                                                                                                                <option value="Talent strategy">Talent strategy</option>
-                                            </select>
-        
+          <label>Filter by topic</label>
+          <select name="topic" id="topic">
+            <option value="">All topics</option>
+
+            <option value="Candidate experience">Candidate experience</option>
+
+            <option value="Candidate sourcing">Candidate sourcing</option>
+
+            <option value="Company culture">Company culture</option>
+
+            <option value="DE&I">DE&amp;I</option>
+
+            <option value="Distributed hiring">
+              Distributed hiring &amp; work
+            </option>
+
+            <option value="Employer brand">Employer brand</option>
+
+            <option value="Hiring maturity">Hiring Maturity</option>
+
+            <option value="Hiring techstack">Hiring tech stack</option>
+
+            <option value="Industry news">Industry news</option>
+
+            <option value="Interviewing">Interviewing</option>
+
+            <option value="Employee experience">Onboarding</option>
+
+            <option value="Recruiting metrics">Recruiting metrics</option>
+
+            <option value="Recruiter tips">Recruiter tips</option>
+
+            <option value="Social impact">Social impact</option>
+
+            <option value="Structured hiring">Structured hiring</option>
+
+            <option value="Talent operations">Talent operations</option>
+
+            <option value="Talent strategy">Talent strategy</option>
+          </select>
         </div>
         <!-- apply filter sub div -->
         <div id="apply_filter">
-            <input onclick="filter()"  type="submit" class="button--secondary" value="Apply Filters">
-            
-            <input onclick="clearone()" type="submit" value="Clear">
-        </div>
-        </div>
-        <div id="append_data"></div>
-        
-        </div>
-         <!-- top image of footter -->
-    <div class="btm reveal">
-        <div>
-          <h1 class="headerBig">Ready to become great at hiring?</h1>
-          <button class="demo">Request a demo</button>
-        </div>
-        <div>
-          <img
-            src="https://www.greenhouse.io/assets/img/botanical/prefooter-image3.png"
-            alt=""
+          <input
+            onclick="filter()"
+            type="submit"
+            class="button--secondary"
+            value="Apply Filters"
           />
+
+          <input onclick="clearone()" type="submit" value="Clear" />
         </div>
       </div>
-        <!-- append footer (importing ) -->
-        <footer id="footer"></footer>
-    
-</body>
-<script src="./scripts/guidance.js"></script>
-
-
+      <div id="append_data"></div>
+    </div>
+    <!-- top image of footter -->
+    <div class="btm reveal">
+      <div>
+        <h1 class="headerBig">Ready to become great at hiring?</h1>
+        <button class="demo">Request a demo</button>
+      </div>
+      <div>
+        <img
+          src="https://www.greenhouse.io/assets/img/botanical/prefooter-image3.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- append footer (importing ) -->
+    <footer id="footer"></footer>
+  </body>
+  <script src="./scripts/guidance.js"></script>
 </html>
 <script type="module">
-    import navbar from "./components/navbar.js";
-    document.querySelector("#navbar").innerHTML = navbar();
-    import footer from "./components/footer.js";
-    document.querySelector("#footer").innerHTML = footer();
-  </script>
-  <script src="/scripts/navbarshow.js" defer></script>
+  import navbar from "./components/navbar.js";
+  document.querySelector("#navbar").innerHTML = navbar();
+  import footer from "./components/footer.js";
+  document.querySelector("#footer").innerHTML = footer();
+</script>
+<script src="/scripts/navbarshow.js" defer></script>

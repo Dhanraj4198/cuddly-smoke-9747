@@ -5,6 +5,8 @@
     flex-shrink: 1;
     flex-basis: 0%;
     position: relative;
+    width: 80%;
+    margin: auto;
 }
 .container-1{
     display: flex;

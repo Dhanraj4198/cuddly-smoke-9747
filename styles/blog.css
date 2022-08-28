@@ -1,5 +1,8 @@
 
-
+#main1{
+    width: 80%;
+    margin: auto;
+}
 #inside_top_div_content>h1{
 
     font-size: 70px;

@@ -2,6 +2,10 @@
     display: flex;
 
 }
+#append{
+  width: 80%;
+  margin: auto;
+}
 #div_king>div>img{
     width:100%;
     height:800px;
