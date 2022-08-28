@@ -1,3 +1,8 @@
+
+#main1{
+    width: 80%;
+    margin: auto;
+}
 #inside_top_div_content>h1{
 
     font-size: 70px;
@@ -23,8 +28,8 @@
         width:50%;
     }
     #top_div_img>img{
-        width:720px;
-        height:731px;
+        width:100%;
+        height:auto;
     }
     #inside_top_div_content{
         margin: auto;
@@ -73,6 +78,10 @@
     margin-top: 10%;
     border:0px;
     }
+    #apply_filter>input:nth-child(1):hover{
+
+        background-color:#0ecf9b;;
+    }
     #apply_filter>input:nth-child(2){
         margin-left: 32px;
         padding: 1px 6px;
@@ -107,6 +116,7 @@
         height:600px;
         margin: auto;
         margin-top: 5%;
+       
     }
     #append_data{
         overflow: scroll;
@@ -130,23 +140,53 @@
         color:#15372c;
         font-weight: lighter;
     } 
-    /* css for navbar products and solution because thet are not coming on same line */
-    /* .dropdown_menu>button{
-        width:200%;
-         margin-left: 10px;
-         font-size: large;
-           
-         }
-         .dropdown_menu>button:nth-child(1){
-            margin-right: 60px;
-         }
-        
-         .dropdown_menu{
-             margin-left: -3%;
-         }
-         #logo>img{
-           width:80%;
-         
+    #append_data{
+        margin-bottom: 5%;
+    }
+
+     /* footer top image css */
+.headerBig {
+    font-size: 70px;
+    font-weight: 400;
+  }
+  .demo {
+    width: 200px;
+    background-color: #3574d6;
+    color: #ffffff;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 16px;
+  }
+  .demo:hover {
+    background-color: #25529b;
+  }
+  .btm {
+    display: flex;
+    width: 100%;
+    background-color: #113228;
+    justify-content: center;
+  }
+  .btm > div > h1 {
+    color: #ffffff;
+    font-weight: 300;
+  }
+  .btm > div:first-child {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+      /* transition css */
+      
+          .reveal {
+            position: relative;
+            transform: translateY(150px);
+            opacity: 0;
+            transition: all 2s ease;
+
          }
          #logo{
             margin-left:px;
@@ -157,3 +197,11 @@ margin-left: -3%;
          #main{
             width: 80%;
          }
+
+          }
+          .reveal.activate {
+            transform: translateY(0px);
+            opacity: 1;
+          } 
+          
+

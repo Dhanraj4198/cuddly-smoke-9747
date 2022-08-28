@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+   
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -103,6 +104,19 @@
       </div>
       <div id="append_data"></div>
     </div>
+    <!-- top image of footter -->
+    <div class="btm reveal">
+      <div>
+        <h1 class="headerBig">Ready to become great at hiring?</h1>
+        <button class="demo">Request a demo</button>
+      </div>
+      <div>
+        <img
+          src="https://www.greenhouse.io/assets/img/botanical/prefooter-image3.png"
+          alt=""
+        />
+      </div>
+    </div>
       <!-- append footer (by importing ) -->
     <footer id="footer"></footer>
   </body>
@@ -116,3 +130,22 @@
   </script>
   <script src="/scripts/navbarshow.js" defer></script>
   
+<script>
+  window.addEventListener("scroll", reveal);
+function reveal() {
+ 
+  let reveals = document.querySelectorAll(".reveal");
+  for (let i = 0; i < reveals.length; i++) {
+    let windowheight = window.innerHeight;
+    //console.log(windowheight)
+    let revealtop = reveals[i].getBoundingClientRect().top;
+    let revealpoint = 150;
+    if (revealtop < windowheight - revealpoint) {
+      reveals[i].classList.add("activate");
+    } else {
+      reveals[i].classList.remove("activate");
+    }
+  }
+}
+
+</script>

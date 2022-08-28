@@ -1,31 +1,43 @@
-#append{
-    width: 80%;
-    margin: auto;
-}
 #div_king{
     display: flex;
-
+width:96%;
+margin: auto;
 }
 #append{
   width: 80%;
   margin: auto;
 }
-#div_king>div>img{
+#div_king>div>img:nth-child(1){
     width:100%;
     height:800px;
 }
+
+#div_king>div>img:nth-child(2){
+    width:100%;
+    height:600px;
+}
 #div_king>div>h1{
+    margin-bottom: -10%;
     text-align: center;
     width:75%;
     margin-left: 15%;
-    font-size: 50px;
+    font-size: 70px;
 font-weight: lighter;
 color: #15372c;
+}
+#div_queen2_h1{
+   margin-top: -10%;
+ 
+    text-align: center;
+    color: white;
+background-color: #15372c;
+
+color: white;
 }
 #div_king>div>p{
     width: 60%;
     margin-left:22%;
-    font-size: 21px;
+    font-size: 25px;
 color: #15372c;
 font-weight: lighter;
 }
@@ -47,13 +59,14 @@ background-color: #008561;
 border-radius: 20px;
 color: white;
 border:0px;
+margin-left: -35%;
+
 
 height:45px;
-margin-top: 10%;
+
 font-size: 17px;
-margin-top: 3%;
+
 }
-/*  */
 
 
 #inside_top_div_content>h1{
@@ -131,6 +144,10 @@ width:55%;
 margin-top: 10%;
 border:0px;
 }
+#apply_filter>input:nth-child(1):hover{
+
+    background-color:#0ecf9b;;
+}
 #apply_filter>input:nth-child(2){
 margin-left: 32px;
 padding: 1px 6px;
@@ -178,10 +195,6 @@ margin-top: 5%;
 #append_data>div>div>p:nth-child(1){
 color:#008561;
 font-size: 16px;
-}
-#apply_filter>input:nth-child(1):hover{
-
-    background-color:#0ecf9b;;
 }
 #append_data>div>div>h1{
 font-weight: lighter;

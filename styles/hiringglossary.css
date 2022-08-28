@@ -1,0 +1,58 @@
+#append{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+#append>div{
+    width:50%;
+    text-align: start;
+}
+#append>div>img{
+    width:100%;
+height:800px;
+}
+#append>div>h1{
+    text-align: start;
+width:68%;
+margin-left: 15%;
+font-size: 70px;
+font-weight: lighter;
+color: #15372c;
+}
+#append>div>h2{
+    width: 60%;
+margin-left:15%;
+font-size: 21px;
+color: #15372c;
+font-weight: lighter;
+}
+#append>div>p{
+    color:#008561;
+font-size: 16px;
+margin-left:15%;
+margin-top: 20%;
+}
+/* bottom part css */
+.main1{
+    width:80%;
+    margin: auto;
+    margin-top: 3%;
+    display: flex;
+    gap:6%;
+}
+.main1>div>h1{
+    color: #15372c;
+    font-weight: lighter;
+}
+.main1>div>h3{
+    color:#008561;
+    font-weight: lighter;
+    font-size: 21px;
+}
+hr{
+margin-top: 5%;
+width:80%
+}
+#footer{
+    margin-top: 8%;
+}
