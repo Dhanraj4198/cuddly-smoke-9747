@@ -16,7 +16,7 @@ function footer(){
           </div>
           <div>
             <p>Solutions</p>
-            <p>Integrations</p>
+            <p><a href="integrations.html">Integrations</a></p>
             <p>Structured hiring</p>
             <p>Talent sourcing</p>
             <p>Candidate experience</p>
@@ -27,8 +27,8 @@ function footer(){
         <div>
           <div>
             <p>Resources</p>
-            <p>Blog</p>
-            <p>Guidance</p>
+            <p><a href="blog.html">Blog</a></p>
+            <p><a href="guidance.html">Guidance</a></p>
             <p>Customer stories</p>
             <p>Hiring glossary</p>
             <p>Support</p>
@@ -47,16 +47,16 @@ function footer(){
         <div>
           <div>
             <p>About us</p>
-            <p>Mission</p>
+            <p><a href="mission.html">Mission</a></p>
             <p>Belonging</p>
             <p>Company</p>
             <p>Careers</p>
             <p>Press & awards</p>
-            <p>Contact</p>
+            <p><a href="contact.html">Contact</a></p>
           </div>
           <div>
             <p>Community</p>
-            <p>Events</p>
+            <p><a href="events.html">Events</a></p>
             <p>Open</p>
             <p>Talent Makers</p>
             <p>Newsletter</p>

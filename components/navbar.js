@@ -65,7 +65,7 @@ function navbar() {
          <h2><a href="#">Company</a></h2>
          <h2><a href="#">Careers</a></h2>
          <h2><a href="#">Press & awards</a></h2>
-         <h2><a href="#">Contact</a></h2>
+         <h2><a href="contact.html">Contact</a></h2>
         </div>
         <div class="dropdown-content seperate" >
             <div>
@@ -84,7 +84,9 @@ function navbar() {
       <button class="link" data-dropdown_menu-button>Community</button>
       <div class="dropdown">
         <div class="dropdown-content">
-            <h2><a href="/events.html">Events</a></h2>
+
+            <h2><a href="events.html">Events</a></h2>
+
             <h2><a href="#">Open</a></h2>
             <h2><a href="#">Talent Makers</a></h2>
             <h2><a href="#">Newsletter</a></h2>

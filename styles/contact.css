@@ -18,3 +18,12 @@
     font-size: medium;
     color: rgb(0, 54, 0);
 }
+#contact{
+  width: 80%;
+  margin: auto;
+}
+#contact_partC{
+  width: 80%;
+  margin: auto;
+  margin-left: 10%;
+}

@@ -98,6 +98,10 @@ gap: 10px;
 #leftSection > div > div > p {
   color: #ffffff;
 }
+#leftSection > div > div > p>a{
+  color: #ffffff;
+  text-decoration: none;
+}
 #leftSection > div > div > p:hover {
   text-decoration: underline;
   cursor: pointer;

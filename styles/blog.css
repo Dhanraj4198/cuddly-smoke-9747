@@ -186,11 +186,22 @@
             transform: translateY(150px);
             opacity: 0;
             transition: all 2s ease;
-         
+
+         }
+         #logo{
+            margin-left:px;
+         }
+         #tabs{
+margin-left: -3%;
+         } */
+         #main{
+            width: 80%;
+         }
+
           }
           .reveal.activate {
             transform: translateY(0px);
             opacity: 1;
           } 
           
-         
+
